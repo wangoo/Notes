@@ -21,7 +21,7 @@ CentOS 7:
               "method":"aes-256-cfb",
               "fast_open": false
             }
-    Open firewall port :
+   Open firewall port :
     
-        firewall-cmd --zone=public --add-port=xxxx/tcp --permanent
-        firewall-cmd --reload
+          firewall-cmd --zone=public --add-port=xxxx/tcp --permanent
+          firewall-cmd --reload
